@@ -1,0 +1,203 @@
+@font-face{
+    font-family: "PokeFont";
+    src: url('../assets/font/pokemon.ttf');
+    font-weight: lighter;
+}
+
+@font-face{
+    font-family: "Bevan";
+    src: url('../assets/font/Bevan.ttf');
+}
+
+body{
+    background-color: #c01e2e;
+}
+
+#pokemonsheet{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#titledetail{
+    font-family: "PokeFont";
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+}
+
+#titleabilities{
+    font-family: "PokeFont";
+    text-align: center;
+    text-transform: capitalize;
+    font-size: x-large;
+    margin: 10px;
+}
+
+#detailbox{
+    position: sticky;
+    height: fit-content;
+    top: 0px;
+    color: white;
+    text-align: center;
+}
+
+#detailbox img{
+    width: 50%;
+    height: 50%;
+    align-self: center;
+    margin: 20px;
+}
+
+#type{
+    text-transform: capitalize;
+    font-family: "Bevan";
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.poke-box{
+    width: 30%;
+    height: 15%;
+    border-radius: 40px ;
+    display: inline-block;
+    margin: 10px;
+    background-color: aliceblue;
+    color: black;
+    border:2px solid black;
+    text-transform: capitalize;
+    font-family: "PokeFont";
+    font-size: x-large;
+    padding: 5px;
+}
+
+.abilities{
+    border-radius: 40px ;
+    display: inline-block;
+    margin: 5px;
+    background-color: aliceblue;
+    color: black;
+    border:2px solid black;
+    text-transform: capitalize;
+    font-family: "PokeFont";
+    font-size: larger;
+    padding: 5px;
+}
+
+.poke-box img{
+    width: auto;
+    height: auto;
+}
+
+#logo{
+    width: 20%;
+    height: 20%;
+}
+
+.types{
+    border-radius: 15px;
+    display: flex;
+    margin: 10px;
+    color: white;
+    font-family: "PokeFont";
+    font-size: x-large;
+    padding: 5px;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+.statinfo{
+    font-family: "Bevan";
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.statfield{
+    border-radius: 15px;
+    display: flex;
+    margin: 10px;
+    color: black;
+    padding: 5px;
+    justify-content: space-evenly;
+    height: 60px;
+    width: min-content;
+    height: max-content;
+    border:2px solid black;
+    background-color: aliceblue;
+}
+
+.normal{
+    background-color: gray;
+}
+
+.fighting{
+    background-color: orange;
+}
+
+.flying{
+    background-color: rgb(38, 211, 211);
+}
+
+.poison{
+    background-color: purple;
+}
+
+.ground{
+    background-color: brown;
+}
+
+.rock{
+    background-color: rgb(87, 81, 81);
+}
+
+.bug{
+    background-color: olive;
+}
+
+.ghost{
+    background-color: rgb(102, 2, 102);
+}
+
+.steel{
+    background-color: #368686;
+}
+
+.fire{
+    background-color: red;
+}
+
+.water{
+    background-color: blue;
+}
+
+.grass{
+    background-color: green;
+}
+
+.eletric{
+    background-color: yellow;
+}
+
+.psychic{
+    background-color: rosybrown;
+}
+
+.ice{
+    background-color: cyan;
+}
+
+.dragon{
+    background-color: rgb(0, 47, 255);
+}
+
+.dark{
+    background-color: darkslategrey;
+}
+
+.fairy{
+    background-color: palevioletred;
+}
